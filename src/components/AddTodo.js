@@ -19,7 +19,7 @@ class AddTodo extends Component {
 
     render() {
         return (
-            <form onSubmit={this.onSubmit}>
+            <form onSubmit={this.onSubmit} className="my-2">
                 <input type="text"
                     id="search-input"
                     placeholder="Add Todo..."
